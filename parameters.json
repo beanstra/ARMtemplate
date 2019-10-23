@@ -1,0 +1,39 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "newStorageAccountName": {
+      "value": "eustoragedemo"
+    },
+    "VSTSAccountName": {
+      "value": "sjoerdboonstra626"
+    },
+    "TeamProject": {
+      "value": "Project Jako and Sjoerd"
+    },
+    "DeploymentGroup": {
+      "value": "project_deployment_group"
+    },
+    "Tags": {
+      "value": []
+    },
+    "PATToken": {
+      "value": "6lia264bjtayl5txstyr7ejhhrplxfa7vzl7eqnl6b5xyegmuhya"
+    },
+    "adminUsername": {
+      "value": "demo"
+    },
+    "dnsNameForPublicIP": {
+      "value": "demowpsql"
+    },
+    "location": {
+      "value": "[resourceGroup().location]"
+    },
+    "authenticationType": {
+      "value": "sshPublicKey"
+    },
+    "adminPasswordOrKey": {
+      "value": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCv0v+6I3n05t8IK8m0gm2/c28QWu8fmmVRKc6pvneQG1R7DUzqaFoetocxxxs4DHi0LS6WDBVXtUFTE0Gm4P9q048VHqaZyWZHDcEKxNh0bsuq2mBTf421sjH/3/oBr9YPmOyo+g9ZTTjy1v74YQN1lCxzWm+DXxFJtU6bUe/67kDMA8CI24tFFMRssMAyZ3cH+MtABgUqJubhvyucemOgj3cEVYC3gQXs+X7Bv71nqPCnUovIcWK32v9U8RJ/dTIsssEAcm9uIIv5an9OigKZSh77/mvbGEhhOZls30Za4fZRKxQVmDc3L1bcV0I+JIQ60sFEs0FtxwVxQBHyVKlb sjoerdboonstra_626@hotmail.com"
+    }
+  }
+}
