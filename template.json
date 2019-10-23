@@ -194,27 +194,13 @@
                         "name": "http",
                         "properties": {
                             "description": "Allow HTTP",
-                            "protocol": "*",
+                            "protocol": "Tcp",
                             "sourcePortRange": "*",
-                            "destinationPortRange": "*",
-                            "sourceAddressPrefix": "*",
+                            "destinationPortRange": "5000",
+                            "sourceAddressPrefix": "Internet",
                             "destinationAddressPrefix": "*",
                             "access": "Allow",
-                            "priority": 100,
-                            "direction": "Outbound"
-                        }
-                    },
-                    {
-                        "name": "httpin",
-                        "properties": {
-                            "description": "Allow HTTP",
-                            "protocol": "*",
-                            "sourcePortRange": "*",
-                            "destinationPortRange": "*",
-                            "sourceAddressPrefix": "*",
-                            "destinationAddressPrefix": "*",
-                            "access": "Allow",
-                            "priority": 100,
+                            "priority": 300,
                             "direction": "Inbound"
                         }
                     },
